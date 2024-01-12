@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans&display=swap');
+
+body {
+    max-width: 100rem;
+    min-height: 100vh;
+    background-color: papayawhip; 
+    font-family: 'Hedvig Letters Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+/* layout for product-card */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* kolumner */
+    grid-template-rows: repeat(3, 1fr); /* rader */
+    gap: 20px; 
+    
+  }
+  
+  /* behållare för produkt-kort */
+  .product-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box; 
+    background-color: white;
+    margin-left: 3rem;
+  
+  }
+  
+  /* Produkt-bild */
+  .product-image {
+    max-width: 100%; 
+    max-height: 100%;
+    width: auto; 
+    height: auto;
+    object-fit: contain; 
+  }
+  
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #000105; 
+  }
+  
+  .product-card:hover {
+    background-color: #f5f5f5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+/* form style */
+.form-container {
+    margin: 1rem auto; /* Centrera horisontellt */
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Lägg till en skugga för att framhäva formuläret */
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.form-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+}
+
+.product-item label {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 18px; 
+    font-weight: bold; 
+    color: #020202;
+}
+
+.product-quantity {
+    display: flex;
+    align-items: center; 
+    width: 150px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-quantity input {
+    width: 50px;
+    border: 0;
+    line-height: 30px;
+    font-size: 20px;
+    text-align: center;
+    background: #505a69;
+    color: #fff;
+    appearance: none;
+    outline: 0;
+}
+.counter span {
+    display: block;
+    font-size: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+    color: #0052cc;
+    user-select: none;
+}
+
+
+
+/* för checkbox, subtotal och andra element */
+.product-item input[type="checkbox"] {
+    margin-right: 10px; /* Avstånd mellan checkbox och produktnamn */
+
+}
+
+/* Checkbox och text bredvid */
+label {
+    display: inline-block;
+    width: 70%;
+}
+
+/* order_item price */
+.subtotal {
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+/* Submit-knapp */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: linear-gradient(#5eb677 5%, #4aa55a 100%);
+}
+
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: #D6EEEE;}
+
+table 			      {
+    border-spacing: 1px;
+    border-collapse: collapse;
+    background:white;
+    border-radius:6px;
+    overflow:hidden;
+    max-width:800px;
+    width:100%;
+    margin:0 auto;
+    position:relative;
+
+    *               { position:relative }
+
+    td,th           { padding-left:8px}
+
+    thead tr        {
+        height:60px;
+        background:#FFED86;
+        font-size:16px;
+    }
+
+    tbody tr        { height:48px; border-bottom:1px solid #E3F1D5 ;
+        &:last-child  { border:0; }
+    }
+
+    td,th 					{ text-align:left;
+        &.l 					{ text-align:right }
+        &.c 					{ text-align:center }
+        &.r 					{ text-align:center }
+    }
+}
+
+table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+}
+
+table tr:hover td {
+    background-color: #ffedcc;
+}
+
+table #customerinfo {
+    background-color: aquamarine;
+}
+
+thead{
+
+}
