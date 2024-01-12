@@ -33,7 +33,7 @@ $media = new Media(null, null, null); ?>
 
             <a href="../store/store_view.php">Store view</a>
             <a href="../admin/admin_view.php">Admin view</a>
-            <a href="../store/order_confirmation.php">Order confirmation</a>
+            <a href="../store/order_confirmation_2.php">Order confirmation</a>
         </ul>
     </div>
 </header>
