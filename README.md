@@ -3,9 +3,6 @@
 ## Beskrivning
 En enkel webbshop byggd med PHP, MySQL, HTML och CSS, som använder Laragon som utvecklingsmiljö. Användare kan bläddra genom produkter, lägga beställningar och se orderhistorik.
 
-![alt text](https://ibb.co/yNJt1pc)
-![alt text](https://ibb.co/bNS4rdn)
-
 ![store_view](https://github.com/Betttina/databashantering/assets/125275847/20b893ab-6ff4-435b-90ca-d2d9d4c33834)
 ![admin_view](https://github.com/Betttina/databashantering/assets/125275847/79cd7787-3dd6-4482-a361-78c2f36a244a)
 
