@@ -3,6 +3,9 @@
 ## Beskrivning
 En enkel webbshop byggd med PHP, MySQL, HTML och CSS, som använder Laragon som utvecklingsmiljö. Användare kan bläddra genom produkter, lägga beställningar och se orderhistorik.
 
+![alt text](https://ibb.co/yNJt1pc)
+![alt text](https://ibb.co/bNS4rdn)
+
 ## Systemkrav
 - Laragon installerat (https://laragon.org/download/)
 - PHP 7.0 eller senare
